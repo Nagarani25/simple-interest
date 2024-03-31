@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#3498db,#91c1e6);
+  }
+  
+  .container{
+    width: 450px;
+    height: 450px;
+    display: grid;
+    place-items: center;
+    background: #91c1e6;
+    box-shadow: 5px 5px 7px #eeebeb,
+    -5px -5px 5px #f0eded;
+    border-radius: 10px;
+    text-shadow: -4px -4px 5px #fff9, 4px 4px 5px #0002;
+  }
+  
+  .container span{
+    font-weight: 700;
+  }
+  
+  .container .result{
+    color: #941885;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .container input{
+    width: 360px;
+    height: 35px;
+    background: #edf1f4;
+    box-shadow: inset 5px 5px 7px #ccc,
+    inset -5px -5px 5px #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 10px;
+  }
+  
+  .container button{
+    width: 150px;
+    height: 40px;
+    background: #0ae620;
+    box-shadow: 5px 5px 7px #ccc,
+    -5px -5px 5px #fff;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    outline: none;
+  }
+  
+  .container button:active{
+    box-shadow: inset 5px 5px 7px #ccc,
+    inset -5px 5px 5px #fff;
+  }
